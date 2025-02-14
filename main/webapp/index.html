@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Sistema de energia</title>
+</head>
+<body>
+<h1>Sistema de energia</h1>
+
+<h2>Cadastrar leitura</h2>
+<form method="post" action="controleLeitura">
+
+<label for="cliente">Cliente: </label>
+<input type="text" name="cliente"></br></br>
+
+<label for="consumo">Consumo: </label>
+<input type="text" name="consumo"></br></br>
+
+<input type="submit" value="Enviar">
+</form>
+
+<h2>Verificar consumo de um cliente</h2>
+
+<form method="post" action="controleCliente">
+
+<label for="cliente">Cliente: </label>
+<input type="text" name="cliente"></br></br>
+
+<input type="submit" value="Enviar">
+</form>
+
+
+<a href="controleConsumo"><h2>Verificar consumo total</h2></a>
+
+<a href="controleMaiorConsumidor"><h2>Verificar o maior consumidor</h2></a>
+
+</body>
+</html>
